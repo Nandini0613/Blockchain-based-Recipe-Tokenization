@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-Recipe-Tokenization"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x98b4ec687790021425b8bfbdcba862d4681c9d582680e4cb6c82f37d993c4e73"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
